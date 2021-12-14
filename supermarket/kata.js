@@ -40,10 +40,35 @@ const shoppingList2 = [1, 1, 1, 2, 2, 3, 4, 4, 4, 4, 4];
 // 3 Cokes, 2 Guaranas, 6 Cookies, 1 Egg Roll
 const shoppingList3 = [1, 1, 1, 1, 2, 3, 3, 3, 3, 3, 3, 4];
 
-const shopping = (shoppingList, money) => {
-  const change = 0;
+const shopping = (shoppingList) => {
+  const total = 0;
 
 
 
-  return change;
+  return total;
 }
+
+const change = (total, money) => {
+
+}
+
+// 1st case with sufficient funds
+const shopping1 = change(shopping(shoppingList1), 50)
+
+// 2nd case with sufficient funds
+const shopping2 = change(shopping(shoppingList2), 50)
+
+// 3rd case with sufficient funds
+const shopping3 = change(shopping(shoppingList3), 50)
+
+// 1st case with insufficient funds
+const shopping1 = change(shopping(shoppingList1), 10)
+
+// 2nd case with insufficient funds
+const shopping2 = change(shopping(shoppingList2), 10)
+
+// 3rd case with insufficient funds
+const shopping3 = change(shopping(shoppingList3), 10)
+
+console.log("-----------------------")
+console.log("-----------------------")
